@@ -1,0 +1,176 @@
+@import url('http://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,400&display=swap');
+*
+{
+	margin: 0;
+	font-family: 'Poppins',sans-serif;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body
+{
+	 background: #ebf5fc;
+	padding-bottom: 300px;
+	overflow-x: hidden;
+	
+
+}
+
+body:before
+{
+	content:'AFDAL.CV';
+	position: fixed;
+	
+	
+	font-size: 19em;
+	transform:translate(10%,70%);
+	
+	font-weight: 700;
+	color: transparent;
+	-webkit-text-stroke:1px #555;
+}
+
+
+
+ .containers h2
+{
+	
+	color: #fff;
+}
+
+.containers{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;	
+}
+
+.retour{color: #435C70;z-index: 1;}
+
+
+  .contents
+{
+		right: 0;
+		height: 100%;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	padding: 40px;
+	background-color:  #435C70;
+	color: #ebf5fc;
+	z-index: 1;
+	text-align: center;
+	color: #fff;
+	box-shadow: 0 25px 35px rgba(0,0,0,0.1);
+	border-radius: 2%;
+	border-bottom: 6px solid #000;
+	font-size: 90%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+
+@media(max-width: 1000px)
+{
+
+body
+{
+	 background: #ebf5fc;
+	padding-bottom: 3px;
+
+	padding-left: 5%;
+	padding-right: 5%;
+
+}
+
+body:before
+{
+	content:'AFDAL.CV';
+	position: fixed;
+	top: 50%;
+	left: 50%
+	transform:translate(-30%,-30%);
+	font-size: 6em;
+	font-weight: 700;
+	color: transparent;
+	-webkit-text-stroke:1px #555;
+}
+
+
+
+ .containers h2
+{
+	margin-left: 60%;
+	font-size: 90%;
+	
+	margin-bottom: 15px;
+margin-top: 0.3%;
+	color: #fff;
+}
+
+ .containers
+{ 
+
+	height: 100%;
+	margin: 0;
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+	grid-gap: 0;
+	padding:auto;
+	
+box-shadow: none;
+max-width: 100%;
+margin-top: 0%;
+
+align-items: center;
+
+}
+
+
+.contents
+{
+
+justify-content: center;
+align-items: center;
+align-content: center;
+border-radius: 2%;
+margin:auto;
+margin-top: 20%;
+}
+.retour
+{margin-top: 20%;}
+.contents p
+{
+	color: #ebf5fc;
+	margin-bottom: 3%;
+	font-size: 90%;
+}
+.contents h1
+{
+	color: #ebf5fc;
+	margin-bottom: 3%;
+	font-weight: bold;
+	font-size: 90%;
+}
+
+.contents h2
+{
+	color: #ebf5fc;
+	margin-bottom: 3%;
+	font-size: 90%;
+
+}
+.contents h5
+{
+	color: #ebf5fc;
+	margin-bottom: 3%;
+	font-size: 90%;
+}
+
+
+
+
+}
+
+
+
